@@ -237,8 +237,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>Special gift</h1>
-<p>For someone i love the most. <br>But you have to unlock it.</p>
+<h1>I Belongs to you replace: Happy  First Anniversary, Baby! </h1>
+<p> I made something special, <br>But you have to unlock it.</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -270,7 +270,7 @@ pointer-events:none;
 <div id="options"></div>
 
 <div class="score-box">
-Points: <span id="score">0</span> / 3
+Points: <span id="score">0</span> / 5
 </div>
 
 <p id="feedback"></p>
@@ -279,7 +279,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Another Month of Us</h1>
+<h1>Happy Anniversary, My Love!</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -333,7 +333,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '1402';
+const correctPin = '2074';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -381,9 +381,11 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did we first meet? ", options:["14 February"," 24 January","22 January"],correct:2},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Anime","Someone else","You (my pretty girlfriend"],correct:2}
+{q:"‎Tahun berapa kita pertama kali bertemu?", options:["2025","2024","2023"],correct:2},
+{q:"Bulan apa kita first date?", options:["Maret","Februari","April"],correct:0},
+{q:"Apa yang TIDAK aku lakukan kalau aku kangen sama kamu?", options:["Minta ketemu","Ngambek marah gajelas ","Workout"],correct:2},
+{q:"Seberapa kamu sayang aku?", options:["Sayang banget","Ga sayang","Ok, sayang"],correct:0},
+{q:"Siapa yang keliatan paling cinta di hubungan ini? ", options:["Abeyi","Luki","Keduanya"],correct:2}
 ];
 
 let currentQ = 0;
@@ -448,7 +450,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2026-01-22T00:00:00");
+    const start = new Date("2025-04-27T00:00:00");
 
     setInterval(()=>{
 
@@ -482,11 +484,18 @@ function revealMemory(el){
     `;
 
     const text = `
-      Even all the beautiful words in the world still wouldn’t be enough to explain how much you mean to me. Yet here you are, right in my life, and somehow that alone says everything. I admire the little things about you—the way you care about me, the way you talk, and how your eyes light up when you’re excited, especially when it’s with me. 
+      Hi baby, first of all mari kita panjatkan Puji dan Syukur di setiap keadaan termasuk keadaan berbahagia kita seperti ini, karena mungkin tanpa Tuhan, kita tidak memiliki hubungan yang penuh warna seperti hubungan yang sedang kita jalani ini. Selain itu, aku juga Bersyukur kepada Tuhan sudah memberikan aku pasangan seperti kamu di tengah-tengah kehidupan yang mungkin tidak bisa aku lalui sendiri tanpa di bantu pikulan dari kamu.  
 
-      With you, I’ve found a kind of peace I didn’t even know I was looking for. It’s a kind of comfort I didn’t know I needed until I found it in you. It’s something I can’t find anywhere else, no matter how hard I try. Every moment with you, no matter how small, feels important and meaningful.
+      Disini aku mau bilang, selamat ulang tahun pertama dalam hubungan imut kita yang masih perlu banyak belajar untuk kedepannya, baby. Aku juga banyak belajar dalam hubungan kita apalagi terkait bertahan, saling memahami, dan tetap memilih satu sama lain di setiap kondisi. 
       
-      Thank you for being here with me, for every moment, every word, and every feeling we’ve shared. Happy 2nd mensiversary, sayangku. I’m so grateful for you, today and always. ❤️  
+      Terimakasih dalam satu tahun hubungan ini kamu selalu mengerahkan diri kamu untuk jadi tempat cerita dan tempat pulang aku untuk mengadu ya, Dut. Saat dunia terasa terlalu ramai dan selalu memberi aku tekanan, kamu adalah satu nama yang dapat menenangkan aku. Kamu tidak selalu menyelesaikan semua masalahku karena aku tidak pernah meminta, tapi kehadiran kamu di setiap kondisi aku sudah cukup membuatku merasa tidak sendirian, dan itu sesuatu yang sangat berarti bagiku. Terima kasih Dut, karena tidak pergi saat aku tidak baik-baik saja (aku mood swing, marah-marah gajelas, burnout, posesif, dll) dan terimakasih selalu dapat bersabar saat aku sulit dimengerti, dan tetap menggenggam tanganku bahkan ketika aku sendiri ragu pada diri sendiri.
+      
+      Di anniversary ini tentu aku tidak menjanjikan hubungan yang selalu sempurna. Tapi aku menjanjikan satu hal: aku akan terus memilih kamu. Di hari baik, di hari buruk, di hari biasa yang sunyi, di hari kamu susah, di hari kamu senang. Selama kamu masih mau berjalan bersamaku, aku ingin kita bersama seterusnya untuk mencapai goals yang selalu kita omongin. Aku harap kamu tahu, dicintai oleh kamu adalah hal yang paling aku syukuri. Dan mencintaimu adalah keputusan yang akan selalu kuambil, lagi dan lagi.
+      
+      Selamat anniversary, cintaku.
+      Terima kasih sudah menjadi kamu.
+      Dan terima kasih karena tetap di sini, bersamaku. 
+      I love you now and forever, baby. <3 
       `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
